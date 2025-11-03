@@ -1,0 +1,26 @@
+[
+  {
+    "id": "math-001",
+    "name": "Mathematics",
+    "icon": "Calculator",
+    "color": "bg-blue-500",
+    "created": "2025-09-14T06:30:00.000Z",
+    "flashcardCount": 2
+  },
+  {
+    "id": "physics-001",
+    "name": "Physics",
+    "icon": "Atom",
+    "color": "bg-purple-500",
+    "created": "2025-09-14T06:30:00.000Z",
+    "flashcardCount": 2
+  },
+  {
+    "id": "chemistry-001",
+    "name": "Chemistry",
+    "icon": "Flask",
+    "color": "bg-green-500",
+    "created": "2025-09-14T06:30:00.000Z",
+    "flashcardCount": 1
+  }
+]

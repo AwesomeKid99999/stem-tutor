@@ -1,0 +1,186 @@
+[
+  {
+    "id": "25fb9351-9578-4cee-8afd-436c46c9db87",
+    "title": "Islam",
+    "description": "Five pillars of Islam",
+    "subject": "religion",
+    "difficulty": "beginner",
+    "modules": [
+      {
+        "id": "module-1-foundations",
+        "title": "Foundations of Islamic Faith",
+        "description": "Explore the core beliefs and pillars of Islam, including the concept of monotheism (Tawhid), the role of prophets, and the significance of the Quran.",
+        "type": "lesson",
+        "completed": false,
+        "estimatedTime": 45,
+        "content": {
+          "objectives": [
+            "Understand the concept of Tawhid (monotheism) in Islam",
+            "Learn about the Five Pillars of Islam",
+            "Explore the role of Prophet Muhammad (PBUH)",
+            "Understand the significance of the Quran and Hadith"
+          ],
+          "introduction": "Islam, meaning 'submission to Allah,' is one of the world's major monotheistic religions. Founded in the 7th century CE in the Arabian Peninsula, Islam emphasizes the worship of one God (Allah) and following the teachings of Prophet Muhammad (PBUH).",
+          "sections": [
+            {
+              "title": "Part 1: The Concept of Tawhid (25%)",
+              "content": "**Tawhid** is the fundamental concept of Islamic monotheism, asserting the absolute oneness and uniqueness of Allah.\n\n### Key Principles:\n- **La ilaha illa Allah** - There is no god but Allah\n- Allah has no partners, associates, or equals\n- All worship and devotion should be directed to Allah alone\n- Allah is the creator, sustainer, and ruler of the universe\n\n### Example:\nThe Shahada (declaration of faith) embodies Tawhid: 'I bear witness that there is no god but Allah, and Muhammad is His messenger.'\n\n### Reflection Questions:\n- How does the concept of Tawhid differ from other religious beliefs?\n- What does it mean to submit to Allah in daily life?"
+            },
+            {
+              "title": "Part 2: The Five Pillars of Islam (50%)",
+              "content": "The **Five Pillars** form the foundation of Muslim practice and worship:\n\n### 1. Shahada (Declaration of Faith)\n- Testimony that there is no god but Allah and Muhammad is His messenger\n- The entry point into Islam\n- Must be recited with sincere belief\n\n### 2. Salah (Prayer)\n- Five daily prayers at prescribed times\n- Performed facing Mecca (Qibla)\n- Includes physical movements and recitation of Quranic verses\n\n### 3. Zakat (Charity)\n- Obligatory giving of 2.5% of wealth annually\n- Purifies wealth and helps the needy\n- One of the main forms of social welfare in Islam\n\n### 4. Sawm (Fasting)\n- Fasting during the month of Ramadan\n- Abstaining from food, drink, and other physical needs from dawn to sunset\n- Develops self-discipline and empathy for the less fortunate\n\n### 5. Hajj (Pilgrimage)\n- Pilgrimage to Mecca at least once in a lifetime (if able)\n- Performed during specific days in the Islamic calendar\n- Symbolizes unity of the Muslim community\n\n### Practice Exercise:\nMatch each pillar with its primary spiritual benefit:\n- Shahada → Foundation of faith\n- Salah → Connection with Allah\n- Zakat → Social responsibility\n- Sawm → Self-discipline\n- Hajj → Community unity"
+            },
+            {
+              "title": "Part 3: Prophet Muhammad and the Quran (75%)",
+              "content": "### Prophet Muhammad (PBUH)\n**Muhammad ibn Abdullah** (c. 570-632 CE) is considered the final messenger of Allah in Islam.\n\n#### Key Aspects:\n- Born in Mecca, received first revelation at age 40\n- Known for his honesty and trustworthiness even before prophethood\n- Migrated to Medina in 622 CE (Hijra) - marks beginning of Islamic calendar\n- Established the first Muslim community and Islamic state\n\n#### His Role:\n- **Messenger**: Delivered Allah's final message to humanity\n- **Example**: His life (Sunnah) serves as a model for Muslims\n- **Leader**: Guided the early Muslim community\n\n### The Quran\nThe **Quran** is the holy book of Islam, believed to be the direct word of Allah.\n\n#### Characteristics:\n- Revealed to Prophet Muhammad over 23 years\n- Written in Arabic, consists of 114 chapters (Surahs)\n- Covers theology, morality, guidance for personal conduct, law, and politics\n- Muslims believe it has remained unchanged since revelation\n\n#### Themes:\n- Monotheism and worship of Allah\n- Social justice and equality\n- Personal morality and ethics\n- Stories of previous prophets\n- Guidelines for community life\n\n### Real-World Application:\nThe Quran and Sunnah together form the basis of Islamic law (Sharia) and guide Muslims in all aspects of life, from personal worship to business ethics."
+            },
+            {
+              "title": "Part 4: Islamic Worldview and Practice (100%)",
+              "content": "### The Islamic Worldview\nIslam provides a comprehensive way of life that integrates spiritual, social, and personal dimensions.\n\n#### Core Concepts:\n- **Ummah**: The global Muslim community\n- **Khalifa**: Humans as stewards of Earth\n- **Akhirah**: The afterlife and accountability\n- **Jihad**: Struggle for self-improvement and justice\n\n### Daily Islamic Practice\n#### Worship ('Ibadah):\n- Daily prayers (Salah)\n- Recitation of Quran\n- Remembrance of Allah (Dhikr)\n- Seeking knowledge\n\n#### Social Conduct:\n- Honesty in business dealings\n- Kindness to parents and family\n- Charity and helping the needy\n- Justice and fairness in all interactions\n\n#### Dietary Laws (Halal):\n- Prohibition of pork and alcohol\n- Proper slaughter methods\n- Emphasis on cleanliness and purity\n\n### Advanced Concepts:\n- **Ijtihad**: Independent reasoning in Islamic law\n- **Ijma**: Consensus of Islamic scholars\n- **Qiyas**: Analogical reasoning in jurisprudence\n\n### Challenge Questions:\n1. How do the Five Pillars create a balanced spiritual and social life?\n2. What role does the concept of Ummah play in modern Muslim communities?\n3. How does the Islamic emphasis on knowledge and learning manifest today?\n\n### Summary:\nIslam's foundational principles create a framework for both individual spiritual development and community building, emphasizing the balance between worship of Allah and service to humanity."
+            }
+          ],
+          "summary": "This module introduced the fundamental concepts of Islam: Tawhid (monotheism), the Five Pillars of practice, the role of Prophet Muhammad (PBUH), and the significance of the Quran. These elements form the foundation upon which all Islamic belief and practice is built.",
+          "nextPreview": "In the next module, we'll explore the rich history of Islamic civilization, from its origins in Arabia to its golden age of scientific and cultural achievements.",
+          "exercises": [
+            {
+              "question": "What does 'Tawhid' mean in Islam?",
+              "answer": "Tawhid means the absolute oneness and uniqueness of Allah, the fundamental concept of Islamic monotheism.",
+              "explanation": "Tawhid is the cornerstone of Islamic belief, emphasizing that Allah is one, unique, and has no partners or equals."
+            },
+            {
+              "question": "Name the Five Pillars of Islam in order.",
+              "answer": "1. Shahada (Declaration of Faith), 2. Salah (Prayer), 3. Zakat (Charity), 4. Sawm (Fasting), 5. Hajj (Pilgrimage)",
+              "explanation": "These five practices form the foundation of Muslim worship and community life."
+            },
+            {
+              "question": "What is the significance of the Hijra in Islamic history?",
+              "answer": "The Hijra was Prophet Muhammad's migration from Mecca to Medina in 622 CE, marking the beginning of the Islamic calendar and the first Muslim community.",
+              "explanation": "This event represents the transition from persecution to the establishment of an Islamic society."
+            }
+          ]
+        }
+      },
+      {
+        "id": "module-2-history",
+        "title": "Islamic History and Civilization",
+        "description": "Journey through the rich history of Islamic civilization, from the early Muslim community to the golden age of science, philosophy, and cultural achievements.",
+        "type": "lesson",
+        "completed": false,
+        "estimatedTime": 50,
+        "content": {
+          "objectives": [
+            "Trace the expansion of Islam from Arabia to a global civilization",
+            "Understand the major Islamic dynasties and their contributions",
+            "Explore the Islamic Golden Age and its scientific achievements",
+            "Learn about Islamic art, architecture, and cultural innovations"
+          ],
+          "introduction": "Islamic civilization has profoundly shaped world history for over 1,400 years. From its humble beginnings in 7th-century Arabia, Islam spread across continents, creating diverse societies that made lasting contributions to science, philosophy, art, and human knowledge.",
+          "sections": [
+            {
+              "title": "Part 1: Early Islamic Expansion (25%)",
+              "content": "### The Rashidun Caliphate (632-661 CE)\nAfter Prophet Muhammad's death, the **Rashidun** (Rightly-Guided) Caliphs led the Muslim community:\n\n#### The Four Caliphs:\n1. **Abu Bakr** (632-634 CE)\n   - Consolidated Arabian Peninsula\n   - Compiled the Quran\n   - Began expansion into Iraq and Syria\n\n2. **Umar ibn al-Khattab** (634-644 CE)\n   - Conquered Persia, Egypt, and Levant\n   - Established administrative systems\n   - Created the Islamic calendar\n\n3. **Uthman ibn Affan** (644-656 CE)\n   - Standardized the Quranic text\n   - Expanded navy and trade\n   - Extended empire to North Africa\n\n4. **Ali ibn Abi Talib** (656-661 CE)\n   - Faced internal conflicts (First Fitna)\n   - Emphasized justice and equality\n   - His supporters became Shia Muslims\n\n### Key Achievements:\n- Rapid territorial expansion\n- Preservation of Quranic text\n- Development of Islamic governance\n- Integration of diverse populations\n\n### Example:\nThe conquest of Jerusalem (638 CE) under Umar demonstrated Islamic principles of religious tolerance, as Christians and Jews were allowed to practice their faiths freely."
+            },
+            {
+              "title": "Part 2: The Umayyad and Abbasid Dynasties (50%)",
+              "content": "### Umayyad Caliphate (661-750 CE)\n**Capital**: Damascus, Syria\n\n#### Major Achievements:\n- Extended empire from Spain to Central Asia\n- Built the Dome of the Rock in Jerusalem (691 CE)\n- Established Arabic as administrative language\n- Created efficient postal system\n- Developed distinctive Islamic architecture\n\n#### Notable Rulers:\n- **Muawiya I**: Founder, established hereditary rule\n- **Abd al-Malik**: Standardized currency and administration\n- **Walid I**: Oversaw greatest territorial expansion\n\n### Abbasid Caliphate (750-1258 CE)\n**Capital**: Baghdad, Iraq\n\n#### The Golden Age (8th-13th centuries):\n- **House of Wisdom** in Baghdad - center of learning\n- Translation movement - preserved Greek, Persian, and Indian texts\n- Advances in mathematics, astronomy, medicine, and philosophy\n- Development of Islamic jurisprudence (Fiqh)\n- Flourishing of Islamic art and literature\n\n#### Key Figures:\n- **Harun al-Rashid** (786-809 CE): Peak of Abbasid power\n- **Al-Ma'mun** (813-833 CE): Great patron of learning\n- **Al-Kindi**: First Islamic philosopher\n- **Al-Razi**: Pioneering physician and chemist\n\n### Comparison Exercise:\n| Aspect | Umayyad | Abbasid |\n|--------|---------|----------|\n| Focus | Military expansion | Cultural development |\n| Capital | Damascus | Baghdad |\n| Language | Arabic dominance | Multilingual scholarship |\n| Legacy | Territorial reach | Scientific achievements |"
+            },
+            {
+              "title": "Part 3: The Islamic Golden Age (75%)",
+              "content": "### Scientific and Intellectual Achievements\n\n#### Mathematics:\n- **Al-Khwarizmi** (780-850 CE): Father of Algebra\n  - Developed algebraic methods\n  - Introduced Hindu-Arabic numerals to the West\n  - Created algorithms (named after him)\n\n- **Al-Biruni** (973-1048 CE): Calculated Earth's circumference\n- **Omar Khayyam** (1048-1131 CE): Advanced geometry and poetry\n\n#### Medicine:\n- **Al-Razi** (854-925 CE): Distinguished smallpox from measles\n- **Ibn Sina (Avicenna)** (980-1037 CE): \n  - Wrote 'The Canon of Medicine'\n  - Used in European universities for 600 years\n  - Pioneered experimental medicine\n\n#### Philosophy:\n- **Al-Farabi** (872-950 CE): 'Second Teacher' after Aristotle\n- **Ibn Rushd (Averroes)** (1126-1198 CE): Influenced European thought\n- **Al-Ghazali** (1058-1111 CE): Reconciled philosophy with Islamic theology\n\n#### Astronomy:\n- **Al-Battani** (858-929 CE): Improved astronomical measurements\n- **Ibn al-Haytham (Alhazen)** (965-1040 CE): Father of optics\n- Built observatories in Baghdad, Damascus, and Cordoba\n\n### Cultural Innovations:\n- **Paper manufacturing**: Brought from China, spread to Europe\n- **Universities**: Al-Azhar (970 CE), first degree-granting institution\n- **Hospitals**: First with medical schools and pharmacies\n- **Banking**: Developed checks, credit, and international trade\n\n### Real-World Impact:\nMany English words derive from Arabic: algebra, algorithm, chemistry, alcohol, sugar, cotton, and hundreds more, showing Islam's influence on global knowledge."
+            },
+            {
+              "title": "Part 4: Islamic Art, Architecture, and Cultural Legacy (100%)",
+              "content": "### Islamic Art and Architecture\n\n#### Key Characteristics:\n- **Geometric patterns**: Reflecting divine order and infinity\n- **Calligraphy**: Arabic script as artistic expression\n- **Arabesque**: Stylized plant motifs\n- **Avoidance of figurative art**: In religious contexts\n\n#### Architectural Marvels:\n\n##### Mosques:\n- **Great Mosque of Cordoba** (785 CE): Horseshoe arches and forest of columns\n- **Blue Mosque, Istanbul** (1616 CE): Six minarets and cascading domes\n- **Masjid al-Haram, Mecca**: Holiest site in Islam\n\n##### Palaces:\n- **Alhambra, Granada**: Intricate geometric decorations\n- **Topkapi Palace, Istanbul**: Ottoman imperial residence\n- **Taj Mahal, India**: Mughal architectural masterpiece\n\n#### Regional Styles:\n- **Moorish** (Spain): Horseshoe arches, intricate tilework\n- **Mamluk** (Egypt/Syria): Geometric stone inlay\n- **Ottoman** (Turkey): Large central domes, slender minarets\n- **Mughal** (India): Fusion of Islamic and Indian elements\n- **Persian** (Iran): Colorful tilework, pointed arches\n\n### Cultural Contributions:\n\n#### Literature:\n- **One Thousand and One Nights**: Collection of Middle Eastern folk tales\n- **Rumi** (1207-1273): Sufi poet, most widely read poet in America\n- **Hafez** (1315-1390): Persian lyric poet\n- **Ibn Khaldun** (1332-1406): Father of sociology and historiography\n\n#### Music and Poetry:\n- Development of musical instruments (oud, qanun)\n- Poetic forms: ghazal, qasida, rubai\n- Integration of spiritual and secular themes\n\n### Modern Legacy:\n- **Educational institutions**: University system model\n- **Scientific method**: Emphasis on observation and experimentation\n- **Cultural diversity**: Model of multicultural societies\n- **Architectural influence**: Seen in modern Islamic architecture worldwide\n\n### Synthesis Questions:\n1. How did the Islamic emphasis on knowledge contribute to the preservation of ancient wisdom?\n2. What factors enabled the Islamic Golden Age to flourish?\n3. How do Islamic artistic principles reflect theological concepts?\n4. What aspects of Islamic civilization continue to influence the modern world?\n\n### Summary:\nIslamic civilization created a rich tapestry of scientific, cultural, and artistic achievements that bridged ancient and modern worlds, demonstrating how religious principles can foster intellectual and cultural flourishing."
+            }
+          ],
+          "summary": "This module explored the remarkable journey of Islamic civilization from its early expansion to its golden age of scientific and cultural achievement. We saw how Islamic societies preserved and advanced human knowledge while creating distinctive art, architecture, and literature.",
+          "nextPreview": "Our final module will examine contemporary Islamic practices, the diversity of Muslim communities worldwide, and Islam's role in the modern global context.",
+          "exercises": [
+            {
+              "question": "Which Abbasid caliph is most associated with the Islamic Golden Age?",
+              "answer": "Harun al-Rashid (786-809 CE) is most associated with the peak of the Islamic Golden Age.",
+              "explanation": "During his reign, Baghdad became the center of learning and culture, with the House of Wisdom attracting scholars from around the world."
+            },
+            {
+              "question": "Name three major scientific contributions of Islamic scholars.",
+              "answer": "Algebra (Al-Khwarizmi), The Canon of Medicine (Ibn Sina), and advances in optics (Ibn al-Haytham).",
+              "explanation": "These contributions had lasting impact on mathematics, medicine, and physics, influencing European scholarship for centuries."
+            },
+            {
+              "question": "What are the key characteristics of Islamic art?",
+              "answer": "Geometric patterns, Arabic calligraphy, arabesque designs, and avoidance of figurative art in religious contexts.",
+              "explanation": "These elements reflect Islamic theological principles while creating distinctive aesthetic traditions."
+            }
+          ]
+        }
+      },
+      {
+        "id": "module-3-contemporary",
+        "title": "Contemporary Islam and Global Diversity",
+        "description": "Explore the diversity of modern Muslim communities, contemporary Islamic thought, and the role of Islam in today's globalized world.",
+        "type": "lesson",
+        "completed": false,
+        "estimatedTime": 40,
+        "content": {
+          "objectives": [
+            "Understand the diversity of contemporary Muslim communities",
+            "Explore modern Islamic movements and reform efforts",
+            "Learn about Islam's role in contemporary global issues",
+            "Examine interfaith dialogue and Islamic contributions to pluralistic societies"
+          ],
+          "introduction": "Today, Islam is practiced by over 1.8 billion people across the globe, representing diverse cultures, languages, and interpretations. Modern Muslim communities navigate between traditional Islamic principles and contemporary challenges, contributing to ongoing discussions about faith, modernity, and global citizenship.",
+          "sections": [
+            {
+              "title": "Part 1: Global Muslim Diversity (25%)",
+              "content": "### Demographics and Distribution\n\n#### Global Statistics:\n- **1.8+ billion Muslims** worldwide (24% of global population)\n- **Fastest-growing major religion**\n- Present in every continent and country\n- Majority populations in 50+ countries\n\n#### Regional Diversity:\n\n##### Middle East and North Africa:\n- **Arab Muslims**: 20% of global Muslim population\n- Birthplace of Islam, Arabic language\n- Countries: Saudi Arabia, Egypt, Morocco, Iraq, etc.\n\n##### South and Southeast Asia:\n- **Largest Muslim populations**: Indonesia (230M), Pakistan (220M), India (200M)\n- Diverse cultural expressions of Islam\n- Countries: Bangladesh, Malaysia, Afghanistan, etc.\n\n##### Sub-Saharan Africa:\n- **Growing Muslim populations**: Nigeria, Ethiopia, Mali\n- Blend of Islamic and local traditions\n- Sufi influences prominent\n\n##### Europe and Americas:\n- **Muslim minorities**: France (5M), Germany (5M), USA (3.3M)\n- Immigrant communities and converts\n- Challenges of integration and identity\n\n### Cultural Expressions:\n- **Languages**: Arabic, Urdu, Persian, Turkish, Malay, etc.\n- **Traditions**: Local customs integrated with Islamic practices\n- **Architecture**: Regional variations in mosque design\n- **Cuisine**: Halal food traditions adapted to local ingredients\n\n### Example:\nIndonesian Islam incorporates local Javanese traditions, creating unique practices like the Sekaten festival, while maintaining core Islamic principles."
+            },
+            {
+              "title": "Part 2: Contemporary Islamic Movements and Thought (50%)",
+              "content": "### Major Contemporary Movements\n\n#### Reform and Modernist Movements:\n\n##### Islamic Modernism:\n- **Key figures**: Muhammad Abduh, Jamal al-Din al-Afghani\n- **Goals**: Reconcile Islamic teachings with modern science and democracy\n- **Approach**: Reinterpret traditional texts for contemporary contexts\n- **Impact**: Influenced educational and legal reforms\n\n##### Progressive Islam:\n- **Focus**: Gender equality, human rights, social justice\n- **Scholars**: Amina Wadud, Khaled Abou El Fadl, Tariq Ramadan\n- **Issues**: Women's rights, LGBTQ+ inclusion, environmental stewardship\n- **Methods**: Critical examination of traditional interpretations\n\n#### Traditional and Conservative Movements:\n\n##### Salafism:\n- **Principle**: Return to practices of early Muslim generations\n- **Emphasis**: Literal interpretation of Quran and Hadith\n- **Varieties**: Quietist, political, and jihadist branches\n- **Influence**: Significant in Saudi Arabia and Gulf states\n\n##### Deobandi Movement:\n- **Origin**: 19th-century India\n- **Focus**: Traditional Islamic education and scholarship\n- **Spread**: Influential in South Asia and diaspora communities\n- **Characteristics**: Conservative but anti-colonial\n\n#### Sufi Traditions:\n- **Nature**: Mystical dimension of Islam\n- **Practices**: Dhikr (remembrance), spiritual music, poetry\n- **Orders**: Qadiriyya, Naqshbandiyya, Mevlevi (Whirling Dervishes)\n- **Modern role**: Spiritual guidance and interfaith dialogue\n\n### Contemporary Islamic Scholarship:\n\n#### Key Themes:\n- **Islamic feminism**: Reinterpreting texts for gender equality\n- **Islamic economics**: Developing Sharia-compliant financial systems\n- **Environmental ethics**: Stewardship (Khalifa) of Earth\n- **Bioethics**: Islamic perspectives on medical advances\n- **Political theory**: Islam and democracy, governance, human rights\n\n#### Notable Contemporary Scholars:\n- **Abdolkarim Soroush** (Iran): Religious hermeneutics\n- **Fazlur Rahman** (Pakistan): Quranic interpretation\n- **Seyyed Hossein Nasr** (Iran/USA): Islamic philosophy and environmentalism\n- **Ingrid Mattson** (Canada): Islamic studies and interfaith work"
+            },
+            {
+              "title": "Part 3: Islam and Contemporary Global Issues (75%)",
+              "content": "### Islam and Modern Challenges\n\n#### Social Justice and Human Rights:\n\n##### Islamic Perspectives:\n- **Equality**: All humans created equal before Allah\n- **Justice** (Adl): Central Quranic principle\n- **Dignity**: Inherent worth of every person\n- **Consultation** (Shura): Participatory decision-making\n\n##### Contemporary Applications:\n- **Civil rights movements**: Islamic organizations supporting equality\n- **Economic justice**: Zakat as wealth redistribution\n- **Criminal justice reform**: Restorative justice principles\n- **Refugee assistance**: Islamic charities leading humanitarian efforts\n\n#### Environmental Stewardship:\n\n##### Islamic Environmental Ethics:\n- **Tawhid**: Unity of creation reflects divine oneness\n- **Khalifa**: Humans as trustees, not owners of Earth\n- **Mizan**: Balance and moderation in all things\n- **Haram**: Prohibition of waste and excess\n\n##### Modern Environmental Initiatives:\n- **Green mosques**: Solar panels, water conservation\n- **Islamic climate action**: Religious leaders advocating for environmental protection\n- **Sustainable development**: Islamic finance supporting green projects\n- **Conservation**: Protecting biodiversity as divine trust\n\n#### Technology and Ethics:\n\n##### Islamic Bioethics:\n- **Medical research**: Permissible if it benefits humanity\n- **Genetic engineering**: Allowed for treating diseases\n- **Artificial intelligence**: Ensuring ethical development and use\n- **Social media**: Balancing connectivity with privacy and truth\n\n##### Digital Islam:\n- **Online education**: Islamic learning platforms\n- **Virtual communities**: Connecting global Muslim populations\n- **Digital Quran**: Apps and online resources\n- **Cyber-ethics**: Islamic principles for digital behavior\n\n### Interfaith Relations:\n\n#### Quranic Foundation:\n- **People of the Book**: Special recognition of Christians and Jews\n- **Religious diversity**: \"To each of you We prescribed a law and a method\" (5:48)\n- **No compulsion**: \"There is no compulsion in religion\" (2:256)\n\n#### Contemporary Interfaith Work:\n- **Dialogue initiatives**: Building understanding between faiths\n- **Collaborative projects**: Addressing poverty, climate change, conflict\n- **Academic cooperation**: Joint research and education programs\n- **Community partnerships**: Local interfaith councils and events\n\n### Case Study: Islamic Finance\nIslamic banking and finance, based on Sharia principles, has grown into a $2+ trillion industry, offering alternatives to conventional banking while serving both Muslim and non-Muslim clients worldwide."
+            },
+            {
+              "title": "Part 4: Future Directions and Global Citizenship (100%)",
+              "content": "### Islam in the 21st Century\n\n#### Emerging Trends:\n\n##### Generational Changes:\n- **Young Muslims**: Balancing tradition with modernity\n- **Digital natives**: Using technology for religious practice and learning\n- **Global perspective**: Connected to worldwide Muslim community\n- **Social activism**: Engaging in justice and environmental causes\n\n##### Women's Leadership:\n- **Religious scholarship**: Female Islamic scholars gaining recognition\n- **Community leadership**: Women leading mosques and organizations\n- **Professional roles**: Muslim women in all fields of work\n- **Feminist theology**: Reinterpreting texts from women's perspectives\n\n#### Challenges and Opportunities:\n\n##### Challenges:\n- **Islamophobia**: Prejudice and discrimination in some societies\n- **Extremism**: Misrepresentation of Islamic teachings\n- **Integration**: Balancing religious identity with national citizenship\n- **Internal diversity**: Managing different interpretations and practices\n\n##### Opportunities:\n- **Interfaith cooperation**: Building bridges between communities\n- **Social contribution**: Islamic values supporting social justice\n- **Cultural enrichment**: Muslim contributions to arts, sciences, and culture\n- **Global citizenship**: Islamic principles supporting human dignity and peace\n\n### Islamic Contributions to Global Society:\n\n#### Values and Principles:\n- **Compassion** (Rahma): Basis for humanitarian work\n- **Justice** (Adl): Foundation for fair societies\n- **Knowledge** (Ilm): Emphasis on education and learning\n- **Community** (Ummah): Model for social solidarity\n- **Moderation** (Wasatiyyah): Balance in all aspects of life\n\n#### Practical Applications:\n- **Healthcare**: Muslim medical professionals and organizations\n- **Education**: Islamic schools and universities worldwide\n- **Charity**: Zakat and Waqf (endowment) systems\n- **Business ethics**: Islamic principles in commerce and finance\n- **Conflict resolution**: Islamic mediation and peacebuilding\n\n### Future Visions:\n\n#### Progressive Islam:\n- Continued reinterpretation of texts for contemporary contexts\n- Greater emphasis on gender equality and social justice\n- Environmental activism based on Islamic stewardship principles\n- Interfaith cooperation for global challenges\n\n#### Traditional Preservation:\n- Maintaining authentic Islamic teachings and practices\n- Preserving Arabic language and classical scholarship\n- Strengthening religious education and spiritual development\n- Protecting Islamic cultural heritage\n\n### Synthesis and Reflection:\n\n#### Key Questions for Modern Muslims:\n1. How can Islamic principles address contemporary global challenges?\n2. What does it mean to be a faithful Muslim in a pluralistic society?\n3. How can different interpretations of Islam coexist peacefully?\n4. What role should Islam play in public life and governance?\n\n#### Universal Values:\nIslam's emphasis on justice, compassion, knowledge, and human dignity offers valuable contributions to global discussions about ethics, governance, and human flourishing.\n\n### Summary:\nContemporary Islam demonstrates remarkable diversity while maintaining core principles. Modern Muslim communities navigate between tradition and change, contributing to global society while preserving their religious identity and values."
+            }
+          ],
+          "summary": "This final module explored the rich diversity of contemporary Islam, from global demographics to modern movements and thought. We examined how Muslims today engage with contemporary challenges while contributing to interfaith dialogue and global citizenship.",
+          "nextPreview": "Congratulations on completing the Introduction to Islamic Studies course! You now have a foundational understanding of Islamic beliefs, history, and contemporary practice. Consider exploring specialized topics like Islamic philosophy, law, or regional studies for deeper learning.",
+          "exercises": [
+            {
+              "question": "Which region has the largest Muslim population in the world?",
+              "answer": "South and Southeast Asia, with countries like Indonesia, Pakistan, India, and Bangladesh having the largest Muslim populations.",
+              "explanation": "While Islam originated in the Middle East, the majority of Muslims today live in Asia, with Indonesia being the country with the largest Muslim population."
+            },
+            {
+              "question": "What is the Islamic principle of environmental stewardship called?",
+              "answer": "Khalifa - the concept that humans are trustees or stewards of Earth, responsible for its care and protection.",
+              "explanation": "This principle emphasizes that humans have a responsibility to protect and preserve the environment as a trust from Allah."
+            },
+            {
+              "question": "Name two contemporary challenges facing Muslim communities globally.",
+              "answer": "Islamophobia and the challenge of balancing religious identity with integration into diverse societies.",
+              "explanation": "These challenges require thoughtful responses that maintain Islamic principles while fostering understanding and cooperation with broader society."
+            }
+          ]
+        }
+      }
+    ],
+    "tags": [
+      "religion",
+      "history",
+      "culture",
+      "philosophy",
+      "interfaith"
+    ],
+    "created": "2025-09-14T16:55:35.424Z",
+    "lastAccessed": "2025-09-14T16:55:35.424Z",
+    "progress": 0,
+    "isShared": false,
+    "author": "STEM Tutor AI",
+    "totalTime": 135
+  }
+]

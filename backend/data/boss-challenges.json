@@ -1,0 +1,644 @@
+[
+  {
+    "id": "chemistry-titan",
+    "name": "The Molecular Titan",
+    "subject": "chemistry",
+    "difficulty": "expert",
+    "description": "A colossal being made of atoms and molecules. Master chemical bonding to break its structure!",
+    "longDescription": "Deep within the atomic realm stands the Molecular Titan, a massive entity composed of countless chemical bonds. Its body shifts between ionic crystals, covalent networks, and metallic structures. Only by understanding the fundamental forces that hold matter together can you dismantle this chemical colossus.",
+    "xpReward": 1000,
+    "unlocked": true,
+    "completed": false,
+    "currentPhase": 0,
+    "totalTime": 90,
+    "prerequisite": null,
+    "rewards": [
+      {
+        "type": "badge",
+        "name": "Molecular Master",
+        "description": "Defeated the Molecular Titan",
+        "rarity": "epic"
+      },
+      {
+        "type": "avatar",
+        "name": "Chemical Warrior",
+        "description": "Unlocks avatar with molecular armor",
+        "rarity": "epic"
+      },
+      {
+        "type": "title",
+        "name": "Bond Breaker",
+        "description": "Display title: \"The Bond Breaker\"",
+        "rarity": "rare"
+      }
+    ],
+    "phases": [
+      {
+        "id": "phase-1",
+        "name": "Atomic Foundation",
+        "description": "Understand the Titan's atomic structure",
+        "completed": false,
+        "timeEstimate": 20,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "The Molecular Titan's core contains an atom with 17 protons and 18 neutrons. What element is this?",
+            "type": "multiple-choice",
+            "options": ["Sulfur", "Chlorine", "Argon", "Potassium"],
+            "correctAnswer": "Chlorine",
+            "explanation": "An atom with 17 protons is chlorine (Cl). The number of protons determines the element identity, regardless of the number of neutrons.",
+            "points": 100
+          },
+          {
+            "id": "q2",
+            "question": "What is the electron configuration of this chlorine atom?",
+            "type": "multiple-choice",
+            "options": [
+              "1s² 2s² 2p⁶ 3s² 3p⁵",
+              "1s² 2s² 2p⁶ 3s² 3p⁶",
+              "1s² 2s² 2p⁶ 3s¹",
+              "1s² 2s² 2p⁵"
+            ],
+            "correctAnswer": "1s² 2s² 2p⁶ 3s² 3p⁵",
+            "explanation": "Chlorine has 17 electrons. Following the aufbau principle: 1s² (2e⁻) + 2s² (2e⁻) + 2p⁶ (6e⁻) + 3s² (2e⁻) + 3p⁵ (5e⁻) = 17 electrons total.",
+            "points": 150
+          },
+          {
+            "id": "q3",
+            "question": "The Titan's armor shows periodic trends. Which element has the largest atomic radius?",
+            "type": "multiple-choice",
+            "options": ["Fluorine", "Chlorine", "Bromine", "Iodine"],
+            "correctAnswer": "Iodine",
+            "explanation": "Atomic radius increases down a group due to additional electron shells. Iodine is lowest in Group 17, so it has the largest atomic radius.",
+            "points": 100
+          },
+          {
+            "id": "q4",
+            "question": "Which of these atoms would have the highest first ionization energy?",
+            "type": "multiple-choice",
+            "options": ["Sodium", "Magnesium", "Aluminum", "Silicon"],
+            "correctAnswer": "Silicon",
+            "explanation": "Ionization energy increases across a period due to increasing nuclear charge. Silicon has the highest nuclear charge among these Period 3 elements.",
+            "points": 125
+          }
+        ]
+      },
+      {
+        "id": "phase-2",
+        "name": "Ionic Assault",
+        "description": "Break the Titan's ionic bonds",
+        "completed": false,
+        "timeEstimate": 25,
+        "questions": [
+          {
+            "id": "q5",
+            "question": "The Titan's left arm is made of sodium chloride. What type of bonding holds it together?",
+            "type": "multiple-choice",
+            "options": ["Covalent bonding", "Metallic bonding", "Ionic bonding", "Hydrogen bonding"],
+            "correctAnswer": "Ionic bonding",
+            "explanation": "NaCl forms through electron transfer from Na (metal) to Cl (nonmetal), creating Na⁺ and Cl⁻ ions held together by electrostatic forces (ionic bonding).",
+            "points": 100
+          },
+          {
+            "id": "q6",
+            "question": "What is the formula for the compound formed between aluminum (Al³⁺) and sulfur (S²⁻)?",
+            "type": "short-answer",
+            "correctAnswer": "Al₂S₃",
+            "explanation": "To balance charges: 2 Al³⁺ ions provide +6 charge, and 3 S²⁻ ions provide -6 charge, giving the neutral compound Al₂S₃.",
+            "points": 150
+          },
+          {
+            "id": "q7",
+            "question": "The Titan's ionic shield has high melting point and conducts electricity when molten. Why?",
+            "type": "multiple-choice",
+            "options": [
+              "Weak intermolecular forces",
+              "Strong electrostatic forces between ions",
+              "Delocalized electrons",
+              "Hydrogen bonding"
+            ],
+            "correctAnswer": "Strong electrostatic forces between ions",
+            "explanation": "Ionic compounds have strong electrostatic attractions between oppositely charged ions, requiring high energy to break (high melting point). When molten, mobile ions allow electrical conduction.",
+            "points": 200
+          },
+          {
+            "id": "q8",
+            "question": "Which compound would have the highest lattice energy?",
+            "type": "multiple-choice",
+            "options": ["NaCl", "MgO", "CaF₂", "KBr"],
+            "correctAnswer": "MgO",
+            "explanation": "Lattice energy is proportional to (charge₁ × charge₂)/distance. MgO has +2 and -2 charges with small ionic radii, giving the highest lattice energy.",
+            "points": 175
+          }
+        ]
+      },
+      {
+        "id": "phase-3",
+        "name": "Covalent Strike",
+        "description": "Disrupt the Titan's covalent networks",
+        "completed": false,
+        "timeEstimate": 30,
+        "questions": [
+          {
+            "id": "q9",
+            "question": "The Titan's heart is a diamond structure. What type of bonding creates this hardness?",
+            "type": "multiple-choice",
+            "options": ["Ionic bonding", "Metallic bonding", "Covalent network bonding", "Van der Waals forces"],
+            "correctAnswer": "Covalent network bonding",
+            "explanation": "Diamond's exceptional hardness comes from a 3D network of strong covalent bonds between carbon atoms, where each carbon is bonded to four others in a tetrahedral arrangement.",
+            "points": 100
+          },
+          {
+            "id": "q10",
+            "question": "What is the molecular geometry of water (H₂O) in the Titan's blood?",
+            "type": "multiple-choice",
+            "options": ["Linear", "Trigonal planar", "Tetrahedral", "Bent"],
+            "correctAnswer": "Bent",
+            "explanation": "H₂O has 4 electron pairs around oxygen (2 bonding pairs with H atoms, 2 lone pairs). This gives tetrahedral electron geometry but bent molecular geometry with ~104.5° bond angle.",
+            "points": 150
+          },
+          {
+            "id": "q11",
+            "question": "The Titan uses hydrogen bonding for self-repair. Which molecule can form hydrogen bonds?",
+            "type": "multiple-choice",
+            "options": ["CH₄", "NH₃", "CO₂", "CCl₄"],
+            "correctAnswer": "NH₃",
+            "explanation": "NH₃ can form hydrogen bonds because hydrogen is bonded to nitrogen (highly electronegative), and nitrogen has lone pairs to accept hydrogen bonds from other molecules.",
+            "points": 200
+          },
+          {
+            "id": "q12",
+            "question": "What is the hybridization of carbon in methane (CH₄)?",
+            "type": "multiple-choice",
+            "options": ["sp", "sp²", "sp³", "sp³d"],
+            "correctAnswer": "sp³",
+            "explanation": "Carbon in CH₄ forms 4 equivalent bonds in tetrahedral geometry, requiring sp³ hybridization (mixing one s and three p orbitals).",
+            "points": 125
+          },
+          {
+            "id": "q13",
+            "question": "Which molecule has the strongest intermolecular forces?",
+            "type": "multiple-choice",
+            "options": ["CH₄", "NH₃", "H₂O", "HF"],
+            "correctAnswer": "HF",
+            "explanation": "HF has the strongest hydrogen bonds due to fluorine's high electronegativity and small size, creating very strong H-F···H-F interactions.",
+            "points": 175
+          }
+        ]
+      },
+      {
+        "id": "phase-4",
+        "name": "Final Reaction",
+        "description": "Trigger the ultimate chemical reaction",
+        "completed": false,
+        "timeEstimate": 15,
+        "questions": [
+          {
+            "id": "q14",
+            "question": "Balance this equation to defeat the Titan: Al + CuSO₄ → Al₂(SO₄)₃ + Cu",
+            "type": "short-answer",
+            "correctAnswer": "2Al + 3CuSO₄ → Al₂(SO₄)₃ + 3Cu",
+            "explanation": "Balance Al first (2 Al on left, 2 in Al₂(SO₄)₃), then Cu (3 Cu needed on right), then verify SO₄ groups (3 on each side). Final: 2Al + 3CuSO₄ → Al₂(SO₄)₃ + 3Cu",
+            "points": 200
+          },
+          {
+            "id": "q15",
+            "question": "The final blow requires 32.0 g of oxygen to react with methane. How many moles of O₂ is this?",
+            "type": "calculation",
+            "correctAnswer": "1.00",
+            "explanation": "Moles = mass ÷ molar mass. For O₂: molar mass = 2 × 16.0 = 32.0 g/mol. Therefore: 32.0 g ÷ 32.0 g/mol = 1.00 mol O₂",
+            "points": 250
+          },
+          {
+            "id": "q16",
+            "question": "In the combustion CH₄ + 2O₂ → CO₂ + 2H₂O, how many grams of CO₂ are produced from 16.0 g CH₄?",
+            "type": "calculation",
+            "correctAnswer": "44.0",
+            "explanation": "16.0 g CH₄ ÷ 16.0 g/mol = 1.00 mol CH₄. From stoichiometry: 1.00 mol CH₄ produces 1.00 mol CO₂. Mass CO₂ = 1.00 mol × 44.0 g/mol = 44.0 g",
+            "points": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "islamic-guardian",
+    "name": "The Guardian of Knowledge",
+    "subject": "religion",
+    "difficulty": "apprentice",
+    "description": "An ancient guardian tests your understanding of Islamic wisdom and history.",
+    "longDescription": "In the halls of the House of Wisdom stands an ancient Guardian, keeper of Islamic knowledge through the ages. This ethereal being has witnessed the rise of Islamic civilization, the Golden Age of science, and the spread of Islamic teachings across the world. To pass its trial, you must demonstrate deep understanding of Islamic foundations, history, and contemporary relevance.",
+    "xpReward": 750,
+    "unlocked": true,
+    "completed": false,
+    "currentPhase": 0,
+    "totalTime": 65,
+    "prerequisite": null,
+    "rewards": [
+      {
+        "type": "badge",
+        "name": "Guardian's Blessing",
+        "description": "Earned the Guardian's approval",
+        "rarity": "epic"
+      },
+      {
+        "type": "avatar",
+        "name": "Scholar of Wisdom",
+        "description": "Unlocks scholarly robes avatar",
+        "rarity": "rare"
+      },
+      {
+        "type": "title",
+        "name": "Keeper of Knowledge",
+        "description": "Display title: \"Keeper of Knowledge\"",
+        "rarity": "rare"
+      }
+    ],
+    "phases": [
+      {
+        "id": "phase-1",
+        "name": "Pillars of Faith",
+        "description": "Demonstrate knowledge of Islamic foundations",
+        "completed": false,
+        "timeEstimate": 20,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What does 'Tawhid' mean in Islamic theology?",
+            "type": "multiple-choice",
+            "options": [
+              "The Five Pillars of Islam",
+              "The oneness and uniqueness of Allah",
+              "The pilgrimage to Mecca",
+              "The holy month of fasting"
+            ],
+            "correctAnswer": "The oneness and uniqueness of Allah",
+            "explanation": "Tawhid is the fundamental concept of Islamic monotheism, asserting Allah's absolute oneness and uniqueness. It means 'La ilaha illa Allah' - there is no god but Allah.",
+            "points": 100
+          },
+          {
+            "id": "q2",
+            "question": "List the Five Pillars of Islam in order.",
+            "type": "short-answer",
+            "correctAnswer": "Shahada, Salah, Zakat, Sawm, Hajj",
+            "explanation": "The Five Pillars are: 1. Shahada (Declaration of Faith), 2. Salah (Prayer), 3. Zakat (Charity), 4. Sawm (Fasting during Ramadan), 5. Hajj (Pilgrimage to Mecca)",
+            "points": 150
+          },
+          {
+            "id": "q3",
+            "question": "What is the significance of the Hijra in Islamic history?",
+            "type": "multiple-choice",
+            "options": [
+              "The first revelation to Prophet Muhammad",
+              "The conquest of Mecca",
+              "The migration from Mecca to Medina in 622 CE",
+              "The compilation of the Quran"
+            ],
+            "correctAnswer": "The migration from Mecca to Medina in 622 CE",
+            "explanation": "The Hijra (migration) in 622 CE marks the beginning of the Islamic calendar and represents the establishment of the first Muslim community (Ummah) in Medina.",
+            "points": 100
+          },
+          {
+            "id": "q4",
+            "question": "How many times per day do Muslims perform the obligatory prayer (Salah)?",
+            "type": "multiple-choice",
+            "options": ["3 times", "4 times", "5 times", "6 times"],
+            "correctAnswer": "5 times",
+            "explanation": "Muslims perform Salah five times daily: Fajr (dawn), Dhuhr (midday), Asr (afternoon), Maghrib (sunset), and Isha (night). These prayers maintain connection with Allah throughout the day.",
+            "points": 75
+          },
+          {
+            "id": "q5",
+            "question": "What percentage of wealth do Muslims give as Zakat annually?",
+            "type": "multiple-choice",
+            "options": ["1.5%", "2.5%", "5%", "10%"],
+            "correctAnswer": "2.5%",
+            "explanation": "Zakat is 2.5% of accumulated wealth given annually to help the needy. It purifies wealth and is one of the main forms of social welfare in Islam.",
+            "points": 100
+          }
+        ]
+      },
+      {
+        "id": "phase-2",
+        "name": "Golden Age Wisdom",
+        "description": "Explore the Islamic Golden Age achievements",
+        "completed": false,
+        "timeEstimate": 25,
+        "questions": [
+          {
+            "id": "q6",
+            "question": "Which Abbasid caliph is most associated with the Islamic Golden Age?",
+            "type": "multiple-choice",
+            "options": ["Abu Bakr", "Umar ibn al-Khattab", "Harun al-Rashid", "Ali ibn Abi Talib"],
+            "correctAnswer": "Harun al-Rashid",
+            "explanation": "Harun al-Rashid (786-809 CE) ruled during the peak of the Islamic Golden Age, with Baghdad as the center of learning and the House of Wisdom attracting scholars from around the world.",
+            "points": 100
+          },
+          {
+            "id": "q7",
+            "question": "Name the Islamic scholar known as the 'Father of Algebra'.",
+            "type": "short-answer",
+            "correctAnswer": "Al-Khwarizmi",
+            "explanation": "Muhammad ibn Musa al-Khwarizmi (780-850 CE) developed algebraic methods, introduced Hindu-Arabic numerals to the West, and created algorithms (named after him).",
+            "points": 150
+          },
+          {
+            "id": "q8",
+            "question": "What was the House of Wisdom in Baghdad?",
+            "type": "multiple-choice",
+            "options": [
+              "A mosque for prayer",
+              "A center of learning and translation",
+              "The caliph's palace",
+              "A military academy"
+            ],
+            "correctAnswer": "A center of learning and translation",
+            "explanation": "The House of Wisdom (Bayt al-Hikma) was a major intellectual center where scholars translated and preserved Greek, Persian, and Indian texts, advancing mathematics, astronomy, medicine, and philosophy.",
+            "points": 200
+          },
+          {
+            "id": "q9",
+            "question": "Which Islamic physician wrote 'The Canon of Medicine'?",
+            "type": "multiple-choice",
+            "options": ["Al-Razi", "Ibn Sina (Avicenna)", "Al-Kindi", "Ibn Rushd"],
+            "correctAnswer": "Ibn Sina (Avicenna)",
+            "explanation": "Ibn Sina (980-1037 CE), known as Avicenna in the West, wrote 'The Canon of Medicine', which was used in European universities for over 600 years and pioneered experimental medicine.",
+            "points": 175
+          },
+          {
+            "id": "q10",
+            "question": "What major mathematical concept did Islamic scholars introduce to Europe?",
+            "type": "multiple-choice",
+            "options": ["Geometry", "Hindu-Arabic numerals", "Fractions", "Multiplication"],
+            "correctAnswer": "Hindu-Arabic numerals",
+            "explanation": "Islamic scholars, particularly Al-Khwarizmi, introduced the Hindu-Arabic numeral system (0-9) to Europe, revolutionizing mathematics and commerce by replacing Roman numerals.",
+            "points": 125
+          }
+        ]
+      },
+      {
+        "id": "phase-3",
+        "name": "Contemporary Understanding",
+        "description": "Show knowledge of modern Islamic diversity",
+        "completed": false,
+        "timeEstimate": 20,
+        "questions": [
+          {
+            "id": "q11",
+            "question": "Which region has the largest Muslim population in the world?",
+            "type": "multiple-choice",
+            "options": [
+              "Middle East and North Africa",
+              "South and Southeast Asia",
+              "Sub-Saharan Africa",
+              "Europe and Americas"
+            ],
+            "correctAnswer": "South and Southeast Asia",
+            "explanation": "South and Southeast Asia has the largest Muslim population, with countries like Indonesia (230M), Pakistan (220M), India (200M), and Bangladesh having the most Muslims globally.",
+            "points": 100
+          },
+          {
+            "id": "q12",
+            "question": "What is the Islamic principle of environmental stewardship called?",
+            "type": "short-answer",
+            "correctAnswer": "Khalifa",
+            "explanation": "Khalifa means humans are trustees or stewards of Earth, responsible for its care and protection. This principle emphasizes environmental responsibility as a divine trust.",
+            "points": 150
+          },
+          {
+            "id": "q13",
+            "question": "Islamic finance avoids which practice that is prohibited in Islam?",
+            "type": "multiple-choice",
+            "options": ["Trade", "Investment", "Interest (Riba)", "Partnership"],
+            "correctAnswer": "Interest (Riba)",
+            "explanation": "Islamic finance prohibits interest (riba) and instead uses profit-sharing, asset-backed financing, and risk-sharing arrangements that comply with Sharia principles.",
+            "points": 200
+          },
+          {
+            "id": "q14",
+            "question": "Approximately how many Muslims are there worldwide today?",
+            "type": "multiple-choice",
+            "options": ["1.2 billion", "1.8 billion", "2.2 billion", "2.5 billion"],
+            "correctAnswer": "1.8 billion",
+            "explanation": "There are approximately 1.8+ billion Muslims worldwide, representing about 24% of the global population and making Islam the fastest-growing major religion.",
+            "points": 75
+          },
+          {
+            "id": "q15",
+            "question": "What does 'Ummah' refer to in Islamic terminology?",
+            "type": "multiple-choice",
+            "options": [
+              "Islamic law",
+              "The global Muslim community",
+              "Religious scholars",
+              "Holy pilgrimage"
+            ],
+            "correctAnswer": "The global Muslim community",
+            "explanation": "Ummah refers to the global Muslim community that transcends national, ethnic, and cultural boundaries, emphasizing unity and brotherhood among all Muslims worldwide.",
+            "points": 125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quantum-dragon",
+    "name": "Quantum Mechanics Dragon",
+    "subject": "physics",
+    "difficulty": "master",
+    "description": "This dragon exists in multiple states simultaneously. Use quantum physics to collapse its wave function!",
+    "longDescription": "Deep in the quantum realm lurks a dragon that defies classical physics. It phases between dimensions, tunnels through barriers, and exhibits wave-particle duality. Only a true master of quantum mechanics can predict its behavior and emerge victorious.",
+    "xpReward": 1200,
+    "unlocked": false,
+    "completed": false,
+    "currentPhase": 0,
+    "totalTime": 70,
+    "prerequisite": "Complete 5 physics topics",
+    "rewards": [
+      {
+        "type": "badge",
+        "name": "Quantum Slayer",
+        "description": "Mastered quantum mechanics",
+        "rarity": "legendary"
+      },
+      {
+        "type": "cosmetic",
+        "name": "Quantum Aura",
+        "description": "Glowing particle effect around avatar",
+        "rarity": "epic"
+      },
+      {
+        "type": "title",
+        "name": "Wave Whisperer",
+        "description": "Display title: \"The Wave Whisperer\"",
+        "rarity": "epic"
+      }
+    ],
+    "phases": [
+      {
+        "id": "phase-1",
+        "name": "Wave Function Analysis",
+        "description": "Calculate probability distributions",
+        "completed": false,
+        "timeEstimate": 25,
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What does the square of the wave function |ψ|² represent?",
+            "type": "multiple-choice",
+            "options": ["Energy", "Momentum", "Probability density", "Wavelength"],
+            "correctAnswer": "Probability density",
+            "explanation": "The Born interpretation states that |ψ|² gives the probability density of finding a particle at a given location in space and time.",
+            "points": 150
+          },
+          {
+            "id": "q2",
+            "question": "In the double-slit experiment, what happens when you observe which slit the electron goes through?",
+            "type": "multiple-choice",
+            "options": [
+              "The interference pattern remains",
+              "The interference pattern disappears",
+              "The electron stops moving",
+              "The electron splits in two"
+            ],
+            "correctAnswer": "The interference pattern disappears",
+            "explanation": "Observation collapses the wave function, forcing the electron to behave as a particle rather than a wave, eliminating the interference pattern.",
+            "points": 200
+          },
+          {
+            "id": "q3",
+            "question": "What is the normalization condition for a wave function?",
+            "type": "multiple-choice",
+            "options": ["∫|ψ|²dx = 0", "∫|ψ|²dx = 1", "∫|ψ|²dx = ∞", "∫ψdx = 1"],
+            "correctAnswer": "∫|ψ|²dx = 1",
+            "explanation": "The wave function must be normalized so that the total probability of finding the particle somewhere in space equals 1 (certainty).",
+            "points": 175
+          }
+        ]
+      },
+      {
+        "id": "phase-2",
+        "name": "Quantum Tunneling",
+        "description": "Solve barrier penetration problems",
+        "completed": false,
+        "timeEstimate": 20,
+        "questions": [
+          {
+            "id": "q4",
+            "question": "Quantum tunneling allows particles to pass through barriers even when they have insufficient energy. True or False?",
+            "type": "multiple-choice",
+            "options": ["True", "False"],
+            "correctAnswer": "True",
+            "explanation": "Quantum tunneling is a quantum mechanical phenomenon where particles can pass through energy barriers that would be classically forbidden, due to wave-like properties.",
+            "points": 100
+          },
+          {
+            "id": "q5",
+            "question": "The tunneling probability depends on which factors?",
+            "type": "multiple-choice",
+            "options": [
+              "Only barrier height",
+              "Only barrier width",
+              "Barrier height, width, and particle mass",
+              "Only particle energy"
+            ],
+            "correctAnswer": "Barrier height, width, and particle mass",
+            "explanation": "Tunneling probability decreases exponentially with barrier height and width, and increases with decreasing particle mass. All three factors are crucial.",
+            "points": 200
+          },
+          {
+            "id": "q6",
+            "question": "Which technology relies heavily on quantum tunneling?",
+            "type": "multiple-choice",
+            "options": ["Laser", "Scanning Tunneling Microscope", "X-ray machine", "Radio"],
+            "correctAnswer": "Scanning Tunneling Microscope",
+            "explanation": "STM uses quantum tunneling of electrons between a sharp tip and sample surface to create atomic-resolution images of surfaces.",
+            "points": 150
+          }
+        ]
+      },
+      {
+        "id": "phase-3",
+        "name": "Uncertainty Principle",
+        "description": "Apply Heisenberg's principle",
+        "completed": false,
+        "timeEstimate": 15,
+        "questions": [
+          {
+            "id": "q7",
+            "question": "Heisenberg's uncertainty principle states that you cannot simultaneously know both position and what other property with perfect precision?",
+            "type": "short-answer",
+            "correctAnswer": "momentum",
+            "explanation": "The uncertainty principle: Δx × Δp ≥ ℏ/2, where you cannot precisely know both position (x) and momentum (p) simultaneously. This is fundamental to quantum mechanics.",
+            "points": 200
+          },
+          {
+            "id": "q8",
+            "question": "What is the physical significance of Planck's constant (ℏ) in the uncertainty principle?",
+            "type": "multiple-choice",
+            "options": [
+              "It sets the scale of quantum effects",
+              "It determines particle mass",
+              "It measures energy",
+              "It defines time"
+            ],
+            "correctAnswer": "It sets the scale of quantum effects",
+            "explanation": "Planck's constant ℏ sets the fundamental scale at which quantum mechanical effects become important, distinguishing quantum from classical behavior.",
+            "points": 175
+          },
+          {
+            "id": "q9",
+            "question": "Why doesn't the uncertainty principle affect macroscopic objects noticeably?",
+            "type": "multiple-choice",
+            "options": [
+              "They don't follow quantum mechanics",
+              "ℏ is extremely small compared to macroscopic scales",
+              "They have no momentum",
+              "They are always at rest"
+            ],
+            "correctAnswer": "ℏ is extremely small compared to macroscopic scales",
+            "explanation": "For macroscopic objects, the uncertainty in position and momentum is negligible compared to the object's size and momentum because ℏ is extremely small (1.05 × 10⁻³⁴ J·s).",
+            "points": 150
+          }
+        ]
+      },
+      {
+        "id": "phase-4",
+        "name": "Final Collapse",
+        "description": "Measure the quantum state",
+        "completed": false,
+        "timeEstimate": 10,
+        "questions": [
+          {
+            "id": "q10",
+            "question": "What happens to a quantum system when it is measured?",
+            "type": "multiple-choice",
+            "options": [
+              "Nothing changes",
+              "The wave function collapses to a definite state",
+              "The system gains energy",
+              "The system becomes classical"
+            ],
+            "correctAnswer": "The wave function collapses to a definite state",
+            "explanation": "Quantum measurement causes wave function collapse, forcing the system into one of its possible eigenstates with definite properties, ending the superposition.",
+            "points": 250
+          },
+          {
+            "id": "q11",
+            "question": "In Schrödinger's cat thought experiment, what does the cat represent?",
+            "type": "multiple-choice",
+            "options": [
+              "A quantum particle",
+              "The absurdity of quantum superposition at macroscopic scales",
+              "A measuring device",
+              "Wave-particle duality"
+            ],
+            "correctAnswer": "The absurdity of quantum superposition at macroscopic scales",
+            "explanation": "Schrödinger's cat illustrates the apparent absurdity of applying quantum superposition (being both alive and dead) to macroscopic objects, highlighting the measurement problem.",
+            "points": 200
+          }
+        ]
+      }
+    ]
+  }
+]
