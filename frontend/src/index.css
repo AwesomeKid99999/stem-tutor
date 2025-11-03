@@ -1,0 +1,327 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* STEM Forge Design System - Accessibility First */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@layer base {
+  :root {
+    /* Space Theme - Default Light */
+    --background: 240 10% 98%;
+    --foreground: 240 10% 8%;
+    
+    /* Cosmic Surface Colors */
+    --card: 240 10% 100%;
+    --card-foreground: 240 10% 8%;
+    
+    --popover: 240 10% 100%;
+    --popover-foreground: 240 10% 8%;
+    
+    /* Constellation Primary */
+    --primary: 240 100% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 240 100% 70%;
+    
+    /* Nebula Secondary */
+    --secondary: 260 30% 94%;
+    --secondary-foreground: 240 10% 8%;
+    
+    /* Cosmic Muted */
+    --muted: 240 8% 96%;
+    --muted-foreground: 240 5% 45%;
+    
+    /* Star Accent */
+    --accent: 50 100% 70%;
+    --accent-foreground: 240 10% 8%;
+    --accent-glow: 50 100% 80%;
+    
+    /* Alert Colors */
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 140 60% 50%;
+    --success-foreground: 0 0% 100%;
+    --warning: 35 90% 55%;
+    --warning-foreground: 0 0% 100%;
+    
+    /* Borders & Inputs */
+    --border: 240 8% 90%;
+    --input: 240 8% 94%;
+    --ring: 240 100% 60%;
+    
+    /* Gamification Colors */
+    --xp-bar: 140 60% 50%;
+    --level-badge: 50 100% 60%;
+    --streak-fire: 15 90% 60%;
+    
+    /* Gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(240 100% 60%) 0%, hsl(260 80% 70%) 50%, hsl(50 100% 70%) 100%);
+    --gradient-nebula: linear-gradient(180deg, hsl(240 30% 98%) 0%, hsl(260 20% 96%) 100%);
+    --gradient-constellation: radial-gradient(circle at 50% 50%, hsl(240 100% 60% / 0.1) 0%, transparent 70%);
+    
+    /* Shadows */
+    --shadow-cosmic: 0 4px 20px hsl(240 100% 60% / 0.15);
+    --shadow-soft: 0 2px 10px hsl(240 8% 8% / 0.08);
+    --shadow-glow: 0 0 20px hsl(var(--accent) / 0.3);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    /* Spacing & Layout */
+    --radius: 1rem;
+    --radius-lg: 1.5rem;
+    --radius-xl: 2rem;
+    --spacing-grid: 8px;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  /* Dark Space Theme */
+  .dark {
+    --background: 240 12% 8%;
+    --foreground: 240 10% 95%;
+    
+    --card: 240 10% 10%;
+    --card-foreground: 240 10% 95%;
+    
+    --popover: 240 10% 10%;
+    --popover-foreground: 240 10% 95%;
+    
+    --primary: 240 100% 70%;
+    --primary-foreground: 240 12% 8%;
+    --primary-glow: 240 100% 80%;
+    
+    --secondary: 240 8% 15%;
+    --secondary-foreground: 240 10% 95%;
+    
+    --muted: 240 8% 12%;
+    --muted-foreground: 240 5% 65%;
+    
+    --accent: 50 100% 65%;
+    --accent-foreground: 240 12% 8%;
+    --accent-glow: 50 100% 75%;
+    
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 140 60% 55%;
+    --success-foreground: 0 0% 100%;
+    --warning: 35 90% 60%;
+    --warning-foreground: 0 0% 100%;
+    
+    --border: 240 8% 18%;
+    --input: 240 8% 15%;
+    --ring: 240 100% 70%;
+    
+    --xp-bar: 140 60% 55%;
+    --level-badge: 50 100% 65%;
+    --streak-fire: 15 90% 65%;
+    
+    --gradient-cosmic: linear-gradient(135deg, hsl(240 100% 70%) 0%, hsl(260 80% 75%) 50%, hsl(50 100% 65%) 100%);
+    --gradient-nebula: linear-gradient(180deg, hsl(240 12% 8%) 0%, hsl(260 10% 10%) 100%);
+    --gradient-constellation: radial-gradient(circle at 50% 50%, hsl(240 100% 70% / 0.15) 0%, transparent 70%);
+    
+    --shadow-cosmic: 0 4px 20px hsl(240 100% 70% / 0.2);
+    --shadow-soft: 0 2px 10px hsl(240 8% 4% / 0.3);
+    --shadow-glow: 0 0 20px hsl(var(--accent) / 0.4);
+  }
+
+  /* High Contrast Theme */
+  .high-contrast {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --primary: 240 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 0 0% 0%;
+    --border: 0 0% 20%;
+    --ring: 240 100% 50%;
+  }
+
+  .high-contrast.dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --primary: 240 100% 60%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
+    --border: 0 0% 80%;
+  }
+}
+
+/* Typography Setup */
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  .font-mono {
+    font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', monospace;
+  }
+  
+  /* Dyslexia-friendly font option */
+  .font-dyslexic {
+    font-family: 'OpenDyslexic', 'Comic Sans MS', cursive;
+  }
+}
+
+/* Animation Keyframes */
+@keyframes cosmic-glow {
+  0%, 100% { box-shadow: var(--shadow-cosmic); }
+  50% { box-shadow: 0 4px 30px hsl(240 100% 60% / 0.25); }
+}
+
+@keyframes constellation-twinkle {
+  0%, 100% { opacity: 0.7; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+@keyframes typing-dots {
+  0%, 20% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes xp-fill {
+  from { width: 0%; }
+  to { width: var(--xp-width); }
+}
+
+@keyframes badge-bounce {
+  0% { transform: scale(0) rotate(-12deg); }
+  50% { transform: scale(1.1) rotate(-6deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+@keyframes streak-fire {
+  0%, 100% { transform: scale(1) rotate(-2deg); }
+  25% { transform: scale(1.05) rotate(1deg); }
+  75% { transform: scale(0.95) rotate(-1deg); }
+}
+
+/* Custom Utility Classes */
+@layer components {
+  /* Message Components */
+  .message-card {
+    @apply bg-card border border-border rounded-xl p-4 shadow-sm;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition-smooth);
+  }
+  
+  .message-card:hover {
+    box-shadow: var(--shadow-cosmic);
+  }
+  
+  .message-user {
+    @apply message-card bg-primary text-primary-foreground ml-12;
+  }
+  
+  .message-assistant {
+    @apply message-card mr-12 relative;
+  }
+  
+  .message-assistant::before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 16px;
+    width: 16px;
+    height: 16px;
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+    border-radius: 4px;
+    transform: rotate(45deg);
+  }
+  
+  /* Interactive Elements */
+  .btn-cosmic {
+    @apply bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium;
+    background: var(--gradient-cosmic);
+    box-shadow: var(--shadow-cosmic);
+    transition: var(--transition-bounce);
+  }
+  
+  .btn-cosmic:hover {
+    transform: translateY(-2px);
+    animation: cosmic-glow 2s infinite;
+  }
+  
+  .btn-cosmic:focus-visible {
+    @apply ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+  
+  /* Progress Elements */
+  .xp-bar {
+    @apply bg-muted rounded-full h-3 overflow-hidden relative;
+  }
+  
+  .xp-bar-fill {
+    @apply h-full rounded-full bg-gradient-to-r from-green-500 to-emerald-400;
+    animation: xp-fill 1.5s ease-out;
+  }
+  
+  .level-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold;
+    background: hsl(var(--level-badge));
+    color: hsl(var(--accent-foreground));
+    animation: badge-bounce 0.6s ease-out;
+  }
+  
+  .streak-indicator {
+    @apply inline-flex items-center gap-1 text-sm font-medium;
+    color: hsl(var(--streak-fire));
+    animation: streak-fire 3s ease-in-out infinite;
+  }
+  
+  /* Focus Indicators */
+  .focus-ring {
+    @apply focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+  
+  /* Skip Links */
+  .skip-link {
+    @apply absolute -top-10 left-4 z-50 bg-primary text-primary-foreground px-4 py-2 rounded-lg font-medium;
+    @apply focus:top-4 focus-ring;
+    transition: var(--transition-smooth);
+  }
+  
+  /* High Contrast Borders */
+  .high-contrast .message-card,
+  .high-contrast .btn-cosmic {
+    border-width: 2px;
+  }
+}
+
+/* Motion Preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .constellation-bg {
+    animation: none !important;
+  }
+}
